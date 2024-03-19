@@ -1,0 +1,44 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8d8d8;
+}
+
+.container {
+    max-width: 400px;
+    margin: 36px auto;
+    background-color: #554f4f;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #878787;
+    color: rgb(9, 9, 9);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
